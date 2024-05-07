@@ -56,74 +56,7 @@
              src="https://tr.line.me/tag.gif?c_t=lap&t_id=9dbead1f-e514-4e1d-ac07-51018bad16b5&e=pv&noscript=1" />
     </noscript>
     <!-- End LINE Tag Base Code -->
-    <script type='text/javascript'>
-        var tagtoo_advertiser_id = 1376;
-        var tagtoo_ga = document.createElement('script');
-        tagtoo_ga.type = 'text/javascript';
-        tagtoo_ga.async = true;
-        tagtoo_ga.src = '//ad.tagtoo.co/media/ad/track.js';
-        var tagtoo_s = document.getElementsByTagName('script')[0];
-        tagtoo_s.parentNode.insertBefore(tagtoo_ga, tagtoo_s);
-    </script>
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-    <!-- <script async src="https://www.googletagmanager.com/gtag/js?id=UA-72422763-1"></script> -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-72422763-1"></script>
-    <script>
-        window.dataLayer = window.dataLayer || [];
-        function gtag() {
-            dataLayer.push(arguments);
-        }
-        gtag('js', new Date());
-        gtag('config', 'UA-72422763-1');
-        gtag('config', 'G-QKSKV5XSBD');
-    </script>
-    <script type="text/javascript">
-        function swalConfirm(title) {
-            var dfd = jQuery.Deferred();
-            Swal.fire({
-                title: title,
-                icon: 'question',
-                showCancelButton: true,
-            }).then(function (result) {
-                if (result.value) dfd.resolve();
-                else dfd.reject();
-            });
-            return dfd.promise();
-        }
-        (function() {
-            window.alert = function() {
-                return swal.fire(arguments[0]);
-            };
-        })(window.alert);
-        var delay = function(r,s){
-            return new Promise(function(resolve,reject){
-                setTimeout(function(){
-                    resolve([r,s]);
-                },s);
-            });
-        };
-        jQuery.get('https://www.cloudflare.com/cdn-cgi/trace', function(output) {
-            output = output.trim().split('\n').reduce(function(obj, pair) {
-                pair = pair.split('=');
-                return obj[pair[0]] = pair[1], obj;
-            }, {});
-            output._token = "LiHAsdGQSV0B8Ngl0QZHnQbcFGeVFRBrosNWtemW";
-            jQuery.post({
-                url: "https://member.bookwalker.com.tw/cgi/cdn_trace",
-                dataType: "json",
-                data: output
-            });
-        });
-        var isCommitted = false;
-        function dosubmit() {
-            if (isCommitted == false) {
-                isCommitted = true;
-                return true;
-            } else {
-                return false;
-            }
-        }
-    </script>
+
 </head>
 <body>
 <header class="bwTopHeader">
@@ -185,8 +118,9 @@
                     </div>
 
                     <div class="form-group row loginBtnSet">
-                        <button class="btn btn-default color_blue btn-lg btn-block" type="submit" id="login">登入</button>
+                        <a href="https://youtu.be/dQw4w9WgXcQ?si=a4_TRSZVdl6NM521" class="btn btn-default color_blue btn-lg btn-block">登入</a>
                     </div>
+
                     <div class="form-group row loginBtnSet">
                         <a class="btn btn-default color_blue btn-lg btn-block" href="https://youtu.be/dQw4w9WgXcQ?si=a4_TRSZVdl6NM521">免費註冊新會員</a>
                     </div>
@@ -247,7 +181,7 @@
             <div class="p-outsideLogin">
                 <ul class="p-outsideLogin__list">
                     <li class="social">
-                        <a href="https://member.bookwalker.com.tw/facebook/login" class="signin-button" onclick="gtag('event', 'login', { method : 'Facebook' });">
+                        <a href="https://youtu.be/dQw4w9WgXcQ?si=a4_TRSZVdl6NM521" class="signin-button" onclick="gtag('event', 'login', { method : 'Facebook' });">
                             <img src="images/btn_login_fb.png" width="100%" alt="使用 Facebook 登入">
                         </a>
                     </li>
