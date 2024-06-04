@@ -191,7 +191,7 @@
                 </ul>
             </div>
             <div class="loginform form-horizontal">
-                <p>若您使用Facebook或Apple等第三方社群帳號註冊，請注意以下事項：</p>
+                <p>若您使用Facebook等第三方社群帳號註冊，請注意以下事項：</p>
                 <p style="color:deeppink">※未來僅能以該註冊方式進行登入，並無法與日本BOOK☆WALKER帳號相通。</p>
                 <p style="color:deeppink;">※無論註冊信箱是否相同，Facebook帳號、Apple帳號、一般信箱帳號皆不相通，所購買或租用的電子書也不能相通。</p>
                 <p>※註冊後，除外部不可抗力因素造成帳號停用或異常，您的帳號皆無法更改為一般信箱帳號。</p>
@@ -201,19 +201,6 @@
         <!-- ./快速登入-->
     </div>
     <!-- 快速登入-->
-    <script type="text/javascript" src="https://appleid.cdn-apple.com/appleauth/static/jsapi/appleid/1/zh_TW/appleid.auth.js"></script>
-    <script type="text/javascript">
-        AppleID.auth.init({
-            clientId : "tw.com.bookwalker.www.web",
-            scope : 'name email',
-            redirectURI: "https://www.bookwalker.com.tw/user/apple/callback",
-            response_mode: 'form_post',
-            state : 'LiHAsdGQSV0B8Ngl0QZHnQbcFGeVFRBrosNWtemW'
-        });
-        function redirectToNewPage() {
-            window.location.href = 'https://www.newlink.com';
-        }
-    </script>
 </div><!-- ./container -->
 </body>
 </html>
